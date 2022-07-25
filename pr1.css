@@ -1,0 +1,244 @@
+/* -----------------------------------this is a global section of Resume */
+body {
+    margin: 0;
+    font-size: 110%;
+}
+
+.page {
+    width: 1262.67px;
+    height: 1782px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: sans-serif;
+    /* background-color: aquamarine; */
+}
+
+hr {
+    color: #65A3CB;
+    width: 1262.67px;
+    height: 0px;
+    border-top: 3px solid #65A3CB;
+
+}
+
+/* ---------------this is a heading section of Resume-------------------------------- */
+
+.head {
+    display: flex;
+    height: 270px;
+    font-size: 120%;
+}
+
+.section1 {
+    width: 625px;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    font-family: sans-serif;
+    height: 190px;
+}
+
+.section2 {
+    text-align: right;
+    width: 625px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    height: 190px;
+
+}
+
+.section2 ul {
+    list-style: none;
+}
+
+.section1 h1 {
+    color: #65A3CB;
+    margin-bottom: 0;
+}
+
+.section1 h3 {
+    color: grey;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.section1 p {
+    margin-top: 8px;
+}
+
+.section2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.section2 ul img {
+    margin: 0 10px;
+    height: 22px;
+    width: 24px;
+}
+
+.section2 ul li {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.section2 ul li a {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* --------------------------this is mid section-------------------- */
+/* -----------------------education section--------------- */
+.mid {
+    display: flex;
+    font-size: 130%;
+}
+
+.left,
+.right {
+    padding: 5px 25px;
+    width: 625px;
+    box-sizing: border-box;
+
+}
+
+.mid h2 span {
+    color: #65A3CB;
+    border-width: 3px 0 3px 0;
+    border-style: solid;
+
+}
+
+.mid a {
+    text-decoration: none;
+    color: black;
+}
+
+.Education ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 55px;
+}
+
+.nd {
+    float: right;
+}
+
+.Education h3,
+p {
+    margin: 2px;
+}
+
+.Education li {
+    margin-bottom: 30px;
+}
+
+.Education .st,
+.nd {
+    font-style: oblique;
+    font-size: smaller;
+    color: gray;
+}
+
+/* ---------------------project section--------------- */
+
+.projects li {
+    list-style: square;
+    margin-bottom: 10px;
+}
+
+.projects .one {
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.projects .oneul {
+    padding: 0%;
+}
+
+.projects .one p {
+    font-weight: bold;
+}
+
+.projects {
+    margin-bottom: 55px;
+}
+
+/* ----------------------------------achivements section------------ */
+.ach h3 {
+    margin: 5px 0px;
+}
+
+.ach .link {
+    margin-bottom: 20px;
+}
+
+/* ---------------------------------- section4------------ */
+.section4 .btn {
+    display: inline-flex;
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 10px;
+    width: 80px;
+}
+
+.section4 {
+    margin-bottom: 60px;
+}
+
+/* ---------------------------------section5------------ */
+.section5 {
+    margin-bottom: 50px;
+}
+
+.section5 li {
+    margin-bottom: 15px;
+    list-style: square;
+}
+
+/* ---------------------------------section6 ------------ */
+.section6 {
+    margin-bottom: 50px;
+}
+
+.section6 h5 {
+    font-weight: lighter;
+    color: gray;
+    font-style: oblique;
+    margin: 0;
+}
+
+/* ---------------------------------section7 ------------ */
+.section7 {
+    margin-bottom: 50px;
+}
+
+.section7 p {
+    margin-bottom: 15px;
+}
+
+/* ---------------------------------section8 ------------ */
+.section8 {
+    margin-bottom: 50px;
+}
+
+.section8 .btn {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------section9 ------------ */
+.section9 .btn {
+    display: inline-flex;
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 10px;
+}
